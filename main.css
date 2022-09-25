@@ -1,0 +1,107 @@
+* {
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+}
+
+a {
+    color: rgb(45, 45, 255);
+    text-decoration: none;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 325px;
+    border: 1px solid lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 300px;
+    font-size: 13px;
+}
+
+form input {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 97%;
+    height: 25px;
+}
+
+#forgot-password {
+    padding-left: 120px;
+}
+
+form h1 {
+    margin-top: 0px;
+}
+
+#password-label {
+    padding-left: 35px;
+}
+
+#continue {
+    background-color: rgb(255, 188, 64);
+    border: 1px solid rgb(133, 133, 133);
+    margin-top: 10px;
+    padding: 6px 134px
+}
+
+#continue:hover {
+    background-color: rgb(255, 176, 30);
+}
+
+#help-container {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#short-rule {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#short-rule hr {
+    margin: 10px;
+    width: 100px;
+    height: 1%;
+}
+
+#short-rule p {
+    color: rgb(131, 131, 131);
+}
+
+.create{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.create button {
+    background-color: rgb(227, 233, 240);
+    border: 1px solid lightgray;
+    padding: 6px 90px;
+}
+
+.create button:hover {
+    background-color: lightgray;
+}
+
+#rule {
+    margin-bottom: 40px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a{
+    padding: 12px;
+}
+
+footer p {
+    padding-top: 15px;
+}
